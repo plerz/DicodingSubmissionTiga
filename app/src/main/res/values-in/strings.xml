@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pencarian Pengguna Github</string>
+    <string name="search_name">Cari Nama</string>
+
+    <string name="tx_username">\@%s</string>
+    <string name="tx_name">Nama</string>
+    <string name="tx_repository">%s Repositori</string>
+    <string name="tx_followers">%s Pengikut</string>
+    <string name="tx_following">%s Mengikuti</string>
+
+    <string name="hello_blank_fragment">Halo Fragmen Kosong</string>
+    <string name="nul">Nol</string>
+    <string name="separator">Pemisah</string>
+    <string name="count">Hitung</string>
+
+    <string name="tb_company">Perusahaan</string>
+    <string name="tb_location">Lokasi</string>
+    <string name="tb_repository">Repositori</string>
+    <string name="tb_followers">Pengikut</string>
+    <string name="tb_following">Mengikuti</string>
+
+</resources>

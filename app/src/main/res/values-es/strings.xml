@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Búsqueda del usuario de Github</string>
+    <string name="search_name">Nombre de búsqueda</string>
+
+    <string name="tx_username">\@%s</string>
+    <string name="tx_name">Nombre</string>
+    <string name="tx_repository">%s Repositorio</string>
+    <string name="tx_followers">%s Seguidores</string>
+    <string name="tx_following">% Siguiendo</string>
+
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="nul">NULO</string>
+    <string name="separator">Separador</string>
+    <string name="count">Contar</string>
+
+    <string name="tb_company">Empresa</string>
+    <string name="tb_location">Ubicación</string>
+    <string name="tb_repository">Repositorio</string>
+    <string name="tb_followers">Seguidores</string>
+    <string name="tb_following">Siguiendo</string>
+</resources>
