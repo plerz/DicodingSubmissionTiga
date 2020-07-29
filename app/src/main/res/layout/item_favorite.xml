@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_items_favorite"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginRight="16dp"
     android:layout_marginLeft="16dp"
     android:layout_marginTop="8dp"
-    android:layout_marginRight="16dp"
     android:layout_marginBottom="8dp"
     app:cardCornerRadius="4dp"
     app:cardElevation="4dp"
@@ -19,33 +22,34 @@
         android:padding="16dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/imgUser"
+            android:id="@+id/imageAvatar"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            tools:src="@android:color/holo_blue_dark" />
+            android:contentDescription="@string/tx_avatar"
+            tools:src="@android:color/darker_gray" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:orientation="vertical">
+            android:layout_marginRight="16dp">
 
             <TextView
-                android:id="@+id/tvLogin"
+                android:id="@+id/textLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                tools:text="Username" />
+                tools:text="Github Username"/>
 
             <TextView
-                android:id="@+id/tvType"
+                android:id="@+id/textType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                tools:text="Type" />
+                tools:text="Type"/>
 
         </LinearLayout>
     </LinearLayout>

@@ -4,6 +4,7 @@
 
     <string name="tx_username">\@%s</string>
     <string name="tx_name">Name</string>
+    <string name="tx_avatar">Avatar</string>
     <string name="tx_repository">%s Repository</string>
     <string name="tx_followers">%s Followers</string>
     <string name="tx_following">%s Following</string>

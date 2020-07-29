@@ -5,10 +5,11 @@ import android.content.ContentValues
 import android.content.Context
 import android.content.UriMatcher
 import android.database.Cursor
+import android.media.tv.TvContract.AUTHORITY
+import android.media.tv.TvContract.Channels.CONTENT_URI
 import android.net.Uri
-import com.ifreshmart.githubsearch2020.db.DatabaseContract.AUTHORITY
-import com.ifreshmart.githubsearch2020.db.DatabaseContract.FavoriteColumns.Companion.CONTENT_URI
-import com.ifreshmart.githubsearch2020.db.DatabaseContract.FavoriteColumns.Companion.TABLE_NAME
+import com.ifreshmart.githubsearch2020.db.DatabaseContract.FavoriteUserColumns.Companion.TABLE_NAME
+
 import com.ifreshmart.githubsearch2020.db.FavoriteHelper
 
 class GithubProvider : ContentProvider() {
